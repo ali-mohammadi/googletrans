@@ -15,11 +15,12 @@ pip install -r requirements.txt
 ```
 3. Run the script using the `main.py <json>`. You're all set!
 
+### JSON format:
 ```json
 {
-  text: <input-text>,
-  des: <language-to>,
-  src: <language-from> (optional, default is auto)
+  "text": "<input-text>",
+  "des": "<language-to>",
+  "src": "<language-from> (optional, default: auto)"
 }
 ```
 
